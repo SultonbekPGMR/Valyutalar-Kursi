@@ -31,7 +31,7 @@ android {
         jvmTarget = '1.8'
     }
 
-    viewBinding{
+    viewBinding {
         enabled true
     }
 
@@ -50,4 +50,5 @@ dependencies {
     //Gson
     implementation 'com.google.code.gson:gson:2.10'
 
+    implementation 'com.github.KaKaVip:Android-Flag-Kit:v0.1'
 }
